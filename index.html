@@ -14,15 +14,16 @@
 
 <body>
     <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
         <a href="#" class="logo"><span>T</span>ravel</a>
         <nav class="navbar">
             <a href="#home">главная</a>
             <a href="#tour">туры</a>
             <a href="#serveces">услуги</a>
-            <a href="#home">отзывы</a>
+            <a href="#review">отзывы</a>
             <a href="#gallery">галерея</a>
-            <a href="#home">бронь</a>
-            <a href="#home">контакты</a>
+            <a href="#book">бронь</a>
+            <a href="#contacts">контакты</a>
         </nav>
         <div class="icons">
             <i class="fa fa-search" id="search-btn"></i>
@@ -33,6 +34,21 @@
             <label for="search-bar"><i class="fa fa-search" id="search-btn"></i></label>
         </form>
     </header>
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>Вход</h3>
+            <input type="email" class="box" placeholder="введите логин">
+            <input type="password" class="box" placeholder="введите пароль">
+            <input type="submit" value="войти" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Запомни меня</label>
+            <p>Забыли пароль? <a href="#">восстановить пароль</a></p>
+            <p>Еще нет аккаунта? <a href="#">Зарегистрироваться</a></p>
+        </form>
+       
+    </div>
     <script src="./scripts/main.js"></script>
 </body>
 
