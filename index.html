@@ -18,11 +18,11 @@
         <a href="#" class="logo"><span>T</span>ravel</a>
         <nav class="navbar">
             <a href="#home">главная</a>
+            <a href="#book">бронь</a>
             <a href="#tour">туры</a>
             <a href="#serveces">услуги</a>
             <a href="#review">отзывы</a>
             <a href="#gallery">галерея</a>
-            <a href="#book">бронь</a>
             <a href="#contacts">контакты</a>
         </nav>
         <div class="icons">
@@ -56,13 +56,56 @@
             <a href="#" class="btn">узнать больше</a>
         </div>
         <div class="controls">
+            <span class="vid-btn active" data-src="./videos/Waves.mp4"></span>
             <span class="vid-btn" data-src="./videos/for.mp4"></span>
             <span class="vid-btn" data-src="./videos/forest.mp4"></span>
             <span class="vid-btn" data-src="./videos/Jungl.mp4"></span>
-            <span class="vid-btn" data-src="./videos/Waves.mp4"></span>
         </div>
         <div class="video-container">
             <video src="./videos/Waves.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>б</span>
+            <span>р</span>
+            <span>о</span>
+            <span>н</span>
+            <span>и</span>
+            <span>р</span>
+            <span>у</span>
+            <span>й</span>
+            <span class="space"></span>
+            <span>с</span>
+            <span>е</span>
+            <span>й</span>
+            <span>ч</span>
+            <span>а</span>
+            <span>с</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="./img/Trip-cuate.svg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <h3>куда</h3>
+                    <input type="text" placeholder="место назначения">
+                </div>
+                <div class="inputBox">
+                    <h3>гости</h3>
+                    <input type="text" placeholder="количество гостей">
+                </div>
+                <div class="inputBox">
+                    <h3>дата отлета</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>дата прилета</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="бронируйте прямо сейчас">
+            </form>
         </div>
     </section>
     <script src="./scripts/main.js"></script>
